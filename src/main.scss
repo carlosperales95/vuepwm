@@ -1,0 +1,93 @@
+body {
+    background-color: #2A4849;
+
+}
+h3 {
+    margin: 40px 0 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: #8BB174;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #d9ebcf;
+}
+
+nav {
+    padding: 30px;
+}
+
+nav a {
+    font-weight: bold;
+    color: #d9ebcf;
+    text-decoration: none;
+
+    &:hover {
+        color: #42b983;
+    }
+}
+
+nav a.router-link-exact-active {
+    color: #42b983;
+}
+
+.alert-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border: #426B69 1px solid;
+    border-radius: 2rem;
+    background-color: #B5CA8D;
+    color: #426B69;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: large;
+    label {
+        width: 40%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    input {
+        width: 40%;
+        margin-bottom: 1rem;
+        font-size: large;
+    }
+
+    button {
+        padding: 1rem;
+        background-color: #42b983;
+        color: #223b3b;
+        font-weight: 800;
+        font-size: large;
+        border-color: #2A4849;
+        border-radius: 0.5rem;
+
+        &:hover {
+            background-color: #69f1b4;
+            color:#121a10;
+            cursor: pointer;
+        }
+    }
+}
