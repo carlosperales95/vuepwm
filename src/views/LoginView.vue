@@ -1,6 +1,6 @@
 <template>
     <div class="about">
-        <Alert :title="'Login Response'" :msg="loginResponse"/>
+        <AlertComponent :title="'Login Response'" :msg="loginResponse"/>
         <h1> Log in the password manager</h1>
         <form>
             <label :for="username"> Username </label><br>
@@ -14,11 +14,11 @@
 
 <script>
 import axios from 'axios';
-import Alert from '../components/Alert.vue';
+import AlertComponent from '../components/Alert.vue';
 export default {
     name: 'LoginView',
     components: {
-        Alert,
+        AlertComponent,
     },
     props: {
     },
