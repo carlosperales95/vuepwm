@@ -1,5 +1,5 @@
 <template>
-    <div class="about">
+    <main class="login">
         <AlertComponent :title="'Login Response'" :msg="loginResponse"/>
         <h1> Log in the password manager</h1>
         <form>
@@ -9,7 +9,7 @@
             <input type="text" name="password"><br>
             <button type="submit" @click="doLogin()">Log me in</button>
         </form>
-    </div>
+    </main>
 </template>
 
 <script>

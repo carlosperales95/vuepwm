@@ -23,4 +23,5 @@ export default {
 
 <style lang="scss">
   @import "./main.scss";
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 </style>

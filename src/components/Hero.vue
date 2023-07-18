@@ -1,5 +1,5 @@
 <template>
-    <div class="hero-container">
+    <div class="hero-container padding-regular">
         <img class="hero-show" alt="PWM logo" src="../assets/backgif.gif">
         <div class="keyshape" id="key2">
             <KeyIcon/>

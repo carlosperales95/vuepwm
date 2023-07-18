@@ -1,7 +1,7 @@
 <template>
-  <div class="about">
+  <main class="about">
     <HelloWorld msg="Vue password manager frontend"/>
-  </div>
+  </main>
 </template>
 
 <script>
